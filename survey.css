@@ -1,0 +1,65 @@
+body {
+  background-color:  #e6ccff;
+  background-size: cover;
+  background-position: center;
+}
+
+form {
+  color:  black;
+  font-size: 18px;
+  font-style: italic;
+  text-align: left;
+}
+
+h1 {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.text-size {
+  width: 80%;
+  max-width: 380px;
+}
+
+#description {
+  font-size: 40px;
+  text-align: center;
+  color: #b84dff;
+}
+
+#container1 {
+  background-color: white;
+  padding: 50px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#submit {
+  font-size: 25px;
+  border-radius: 10px;
+  font-style: italic;
+  font-weight: bold;
+  font-family: serif;
+  color: black;
+  
+}
+
+#comment {
+  resize: vertical;
+  height: 50px;
+  width: 330px;
+}
+
+#topics {
+  display: block;
+  position: relative;
+  padding-left: 200px;
+}
+
+#buttons {
+  position: relative;
+  margin-left: 120px;
+}
