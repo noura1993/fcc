@@ -1,0 +1,116 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#navbar {
+  width: 300px;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+}
+
+#head-documentation {
+  text-align: center;
+  font-size: 25px;
+  border-bottom: 1px solid #555;
+  padding: 20px;
+}
+
+header {
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+  border: 1px solid #555;
+}
+
+li {
+  border-bottom: 1px solid #555;
+}
+
+li a {
+  display: block;
+  text-decoration: none;
+  padding: 20px 20px;
+  color: #000;
+  font-size: 18px;
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+#main-article {
+  margin-left: 350px;
+  margin-top: 50px;
+  font-size: 20px;
+  padding: 0px 10px;
+}
+
+header {
+  font-weight: bold;
+}
+
+article {
+  margin-top: 30px;
+}
+
+#layout-img {
+  width: 100%;
+  max-width: 800px;
+}
+
+code {
+  display: block;
+  text-align: left;
+  position: relative;
+  line-height: 1;
+  background-color: #f7f7f7;
+  padding: 7px;
+  margin: 7px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196f3;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+@media (max-width: 830px) {
+  p {
+    font-size: 30px;
+  }
+}
+
+.points {
+  border-bottom: none;
+  text-align: justify;
+}
+
+.note{
+  color: #00b3b3;
+}
+
+#note{
+  color: #00b3b3;
+}
